@@ -25,3 +25,33 @@ code {
     'Courier New',
     monospace;
 }
+
+.main-cal {
+  width: 420px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result {
+  height: 50px;
+  background: #575656;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.btn-val {
+  height: 50px;
+  background: #eee;
+}
+
+.operand {
+  height: 50px;
+  background: #f78504;
+}

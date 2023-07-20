@@ -25,3 +25,70 @@ code {
     'Courier New',
     monospace;
 }
+
+.main-cal {
+  width: 420px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result {
+  height: 50px;
+  background: #575656;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.btn-val {
+  height: 50px;
+  background: #eee;
+  text-align: center;
+  cursor: pointer;
+}
+
+.operand {
+  height: 50px;
+  background: #f78504;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) {
+  .wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote {
+    width: 90%;
+    margin: 0 auto;
+    background: #eee;
+    border-radius: 15px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote-container {
+    width: 420px;
+    margin: 20px auto;
+  }
+}

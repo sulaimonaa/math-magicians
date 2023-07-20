@@ -49,9 +49,13 @@ code {
 .btn-val {
   height: 50px;
   background: #eee;
+  text-align: center;
+  cursor: pointer;
 }
 
 .operand {
   height: 50px;
   background: #f78504;
+  text-align: center;
+  cursor: pointer;
 }

@@ -59,3 +59,36 @@ code {
   text-align: center;
   cursor: pointer;
 }
+
+@media (min-width: 320px) {
+  .wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote {
+    width: 90%;
+    margin: 0 auto;
+    background: #eee;
+    border-radius: 15px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote-container {
+    width: 420px;
+    margin: 20px auto;
+  }
+}

@@ -1,151 +1,150 @@
 body {
-    margin: 0;
-    font-family:
-      -apple-system,
-      BlinkMacSystemFont,
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
-      'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family:
-      source-code-pro,
-      Menlo,
-      Monaco,
-      Consolas,
-      'Courier New',
-      monospace;
-  }
-  
-  .mainCal {
-    width: 420px;
-    margin: 0 auto;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+.mainCal {
+  width: 420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result {
+  height: 50px;
+  background: #575656;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.btn-val {
+  height: 50px;
+  background: #eee;
+  text-align: center;
+  cursor: pointer;
+}
+
+.operand {
+  height: 50px;
+  background: #f78504;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) {
+  .wrap {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
-  
-  .result {
-    height: 50px;
-    background: #575656;
-    color: #fff;
-    font-weight: 600;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 5px 10px;
-  }
-  
-  .btn-val {
-    height: 50px;
+
+  .quote {
+    width: 90%;
+    margin: 0 auto;
     background: #eee;
-    text-align: center;
-    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
   }
-  
-  .operand {
-    height: 50px;
-    background: #f78504;
-    text-align: center;
-    cursor: pointer;
+
+  .headerContainer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background: #dedcdc;
   }
-  
-  @media (min-width: 320px) {
-    .wrap {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .quote {
-      width: 90%;
-      margin: 0 auto;
-      background: #eee;
-      border-radius: 15px;
-      padding: 10px;
-    }
-  
-    .headerContainer {
-      width: 100%;
-      height: 80px;
-      display: flex;
-      align-items: center;
-      background: #dedcdc;
-    }
-  
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
-  
-    .nav-container {
-      display: flex;
-      justify-content: space-between;
-      margin: 0 auto;
-      width: 90%;
-      align-items: center;
-    }
-  
-    .brand {
-      font-size: 28px;
-      font-weight: 600;
-    }
-  
-    .navbar {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      gap: 20px;
-    }
-  
-    .nav-item {
-      background: #575656;
-      padding: 5px 10px;
-      list-style: none;
-      border-radius: 5px;
-    }
-  
-    .nav-links {
-      text-decoration: none;
-      color: #fff;
-      font-size: 14px;
-    }
-  
-    .calcWrap {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      height: 100vh;
-    }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
   }
-  
-  @media (min-width: 768px) {
-    .wrap {
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
-      width: 80%;
-      height: 100vh;
-      margin: 0 auto;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .quote-container {
-      width: 420px;
-      margin: 20px auto;
-    }
-  
-    .calcWrap {
-      flex-direction: row;
-    }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
   }
-  
+
+  .brand {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-item {
+    background: #575656;
+    padding: 5px 10px;
+    list-style: none;
+    border-radius: 5px;
+  }
+
+  .nav-links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .calcWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote-container {
+    width: 420px;
+    margin: 20px auto;
+  }
+
+  .calcWrap {
+    flex-direction: row;
+  }
+}

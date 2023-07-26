@@ -28,7 +28,6 @@ code {
 
 .main-cal {
   width: 420px;
-  height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -73,6 +72,59 @@ code {
     border-radius: 15px;
     padding: 10px;
   }
+
+  .headerContainer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background: #dedcdc;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+  }
+
+  .brand {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-item {
+    background: #575656;
+    padding: 5px 10px;
+    list-style: none;
+    border-radius: 5px;
+  }
+
+  .nav-links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .calc-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+  }
 }
 
 @media (min-width: 768px) {
@@ -90,5 +142,9 @@ code {
   .quote-container {
     width: 420px;
     margin: 20px auto;
+  }
+
+  .calc-wrap {
+    flex-direction: row;
   }
 }

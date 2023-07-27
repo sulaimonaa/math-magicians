@@ -18,76 +18,165 @@ const CalculatorFunc = () => {
       <table className="table">
         <tbody>
           <tr>
-            <td className="btn-val ac" onClick={() => handleClickEvent('AC')}>
+            <td
+              role="gridcell"
+              className="btn-val ac"
+              onClick={() => handleClickEvent('AC')}
+              onKeyDown={() => handleClickEvent('AC')}
+            >
               AC
             </td>
             <td
+              role="gridcell"
               className="btn-val add-minus"
               onClick={() => handleClickEvent('+/-')}
+              onKeyDown={() => handleClickEvent('+/-')}
             >
               +/-
             </td>
-            <td className="btn-val mod" onClick={() => handleClickEvent('%')}>
+            <td
+              role="gridcell"
+              className="btn-val mod"
+              onClick={() => handleClickEvent('%')}
+              onKeyDown={() => handleClickEvent('%')}
+            >
               %
             </td>
-            <td className="operand" onClick={() => handleClickEvent('÷')}>
+            <td
+              role="gridcell"
+              className="operand"
+              onClick={() => handleClickEvent('÷')}
+              onKeyDown={() => handleClickEvent('÷')}
+            >
               ÷
             </td>
           </tr>
           <tr>
-            <td className="btn-val" onClick={() => handleClickEvent('7')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('7')}
+              onKeyDown={() => handleClickEvent('7')}
+            >
               7
             </td>
-            <td className="btn-val" onClick={() => handleClickEvent('8')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('8')}
+              onKeyDown={() => handleClickEvent('8')}
+            >
               8
             </td>
-            <td className="btn-val" onClick={() => handleClickEvent('9')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('9')}
+              onKeyDown={() => handleClickEvent('9')}
+            >
               9
             </td>
-            <td className="operand" onClick={() => handleClickEvent('x')}>
+            <td
+              role="gridcell"
+              className="operand"
+              onClick={() => handleClickEvent('x')}
+              onKeyDown={() => handleClickEvent('x')}
+            >
               x
             </td>
           </tr>
           <tr>
-            <td className="btn-val" onClick={() => handleClickEvent('4')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('4')}
+              onKeyDown={() => handleClickEvent('4')}
+            >
               4
             </td>
-            <td className="btn-val" onClick={() => handleClickEvent('5')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('5')}
+              onKeyDown={() => handleClickEvent('5')}
+            >
               5
             </td>
-            <td className="btn-val" onClick={() => handleClickEvent('6')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('6')}
+              onKeyDown={() => handleClickEvent('6')}
+            >
               6
             </td>
-            <td className="operand" onClick={() => handleClickEvent('-')}>
+            <td
+              role="gridcell"
+              className="operand"
+              onClick={() => handleClickEvent('-')}
+              onKeyDown={() => handleClickEvent('-')}
+            >
               -
             </td>
           </tr>
           <tr>
-            <td className="btn-val" onClick={() => handleClickEvent('1')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('1')}
+              onKeyDown={() => handleClickEvent('1')}
+            >
               1
             </td>
-            <td className="btn-val" onClick={() => handleClickEvent('2')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('2')}
+              onKeyDown={() => handleClickEvent('2')}
+            >
               2
             </td>
-            <td className="btn-val" onClick={() => handleClickEvent('3')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('3')}
+              onKeyDown={() => handleClickEvent('3')}
+            >
               3
             </td>
-            <td className="operand" onClick={() => handleClickEvent('+')}>
+            <td
+              role="gridcell"
+              className="operand"
+              onClick={() => handleClickEvent('+')}
+              onKeyDown={() => handleClickEvent('+')}
+            >
               +
             </td>
           </tr>
           <tr>
             <td
+              role="gridcell"
               className="btn-val"
               colSpan={2}
               onClick={() => handleClickEvent('0')}
+              onKeyDown={() => handleClickEvent('0')}
             >
               0
             </td>
-            <td className="btn-val" onClick={() => handleClickEvent('.')}>
+            <td
+              role="gridcell"
+              className="btn-val"
+              onClick={() => handleClickEvent('.')}
+              onKeyDown={() => handleClickEvent('.')}
+            >
               .
             </td>
-            <td className="operand" onClick={() => handleClickEvent('=')}>
+            <td
+              role="gridcell"
+              className="operand"
+              onClick={() => handleClickEvent('=')}
+              onKeyDown={() => handleClickEvent('=')}
+            >
               =
             </td>
           </tr>

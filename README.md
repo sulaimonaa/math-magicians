@@ -23,6 +23,7 @@
     - [Setup](#setup)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
+    - [Deployment](#deployment)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
@@ -52,6 +53,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[React Component]**
+- **[Calculator Application]**
+- **[Quotes ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,10 +100,16 @@ Run this commands:
 
 
 - [ ] **[React Component UI]**
+- [ ] **[Calcultor ]**
+- [ ] **[Quotes ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Deployment
 
+You can access this project using the link below:
+  
+  <a href="https://mathmagic-y8ja.onrender.com">mathmagic</a>
 
 ## ⭐️ Show your support <a name="support"></a>
 
